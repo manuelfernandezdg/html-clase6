@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Esta clase es sólo para referencia de colores */
+.colores {
+    color: #07020D;
+    color: #F1E9DB;
+    color: #5DB7DE;
+    color: #A39B8B;
+    color: #716A5C;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #07020D;
+    background-color: #F1E9DB;
+
+    margin: 0;
+}
+
+table {
+    border: 3px solid #07020D;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: separate; /* colapsa el área entre bordes */
+}
+
+table img {
+    width: 150px;
+}
+
+.par {
+    background-color: #716A5C;
+    color: #F1E9DB;
+}
+
+.impar {
+    background-color: #A39B8B;
+}
+
+th {
+    border: 3px solid #07020D;
+}
+
+td {
+    border: 3px solid #07020D;
+}
+
+video {
+    display: block; /* convierte a un elemento de bloque */
+    width: 320px;
+    margin: 0 auto;
+}
+
+.iframeVideo {
+    width: 560px;
+    height: 315px;
+    border: 0;
+}
+
+.iframeMapa {
+    width: 80%;
+    height: 450px;
+    border: 0;
+}

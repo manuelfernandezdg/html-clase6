@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: aquamarine;
+    width: 650px; /* ancho */
+    height: 250px; /* alto */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+h2 {
+    background-color: brown;
+    width: 350px;
+    height: 250px;
+    text-align: center; /* Siempre modifica el texto dentro del contenedor */
+    margin-top: 50px;
+}
+
+p {
+    background-color: rgb(255, 115, 0);
+    width: 350px;
+    padding: 24px; /* margen interno, 24px top / right / bottom / left */
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+    padding-left: 32px;
+
+    /* atajos */
+    padding: 24px 12px; /* top y bottom, left y right */
+    padding: 12px 64px 32px; /* top, left y right, bottom */
+
+    margin: 24px; /* margen externo, 24px top / right / bottom / left */
+    margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+
+    margin: 24px 32px;
+    margin: 0 32px 64px;
+
+    /* border-width: 5px;
+    border-color: blueviolet;
+    border-style: ridge; */
+
+    border: 5px solid #a31313; /* grosor estilo color */
+}
+
+/* Selector de clase */
+.colorAzul {
+    background-color: blue;
+}
+
+ul {
+    background-color: aqua;
+    list-style: none;
+    padding: 0;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+
+li {
+    background-color: brown;
+}
+
+a {
+    background-color: aquamarine;
+}
+
+/* Ambos encabezados son elementos de bloque. Podemos usar width / height con los elementos de bloque. */
+
+img {
+    width: 150px;
+    margin-left: 32px;
+    margin-right: 0;
+}

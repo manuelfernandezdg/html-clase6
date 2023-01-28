@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+    <form action="enviar.php" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingresar nombre">
+        <br>
+        <br>
+        <label>
+            email
+            <input type="text" name="email" placeholder="email@dominio.com" required>
+        </label>
+        <br>
+        <br>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+
+        <label>
+            ¿Querés recibir novedades por email?
+            <input type="radio" name="newsletter" value="si"> Si
+            <input type="radio" name="newsletter" value="no"> No
+        </label>
+
+        <br>
+        <br>
+
+        <p>¿Cuáles son tus géneros literarios favoritos?</p>
+        <label>Ciencia Ficción
+            <input type="checkbox" value="Ciencia Ficción" name="genero1">
+        </label>
+
+        <br>
+
+        <label>Fantasía
+            <input type="checkbox" value="Fantasía" name="genero2">
+        </label>
+        <br>
+        <br>
+
+        <label>¿Acepta los términos y condiciones?
+            <input type="checkbox" value="acepto" name="terminos" required> Si, acepto.
+        </label>
+
+        <br>
+        <br>    
+
+        <label>Provincia
+            <select name="provincia" id="">
+                <option value="Córdoba">Córdoba</option>
+                <option value="Tucuman">Tucuman</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+            </select>
+        </label>
+
+        <br>
+        <br>
+        <label>Ingresar contraseña
+            <input type="password" name="password1" required>
+        </label>
+        <br>
+        <br>
+        <label>Repetir contraseña
+            <input type="password" name="password2" required>
+        </label>
+        <br>
+        <br>
+        <label>Subir imagen de perfil
+            <input type="file" name="avatar" multiple>
+        </label>
+        <br>
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

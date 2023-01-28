@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Esta clase es sólo para referencia de colores */
+.colores {
+    color: #07020D;
+    color: #F1E9DB;
+    color: #5DB7DE;
+    color: #A39B8B;
+    color: #716A5C;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #07020D;
+    background-color: #F1E9DB;
+
+    margin: 0;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Header y Barra de Navegación */
+header {
+    background-color:#07020D;
+    text-align: center;
+
+    padding: 35px 0 20px; /* 35px top, 0 izq y der, 20px bottom */
+}
+
+/* Links de navegación */
+/* Links en reposo cuya clase es nave */
+a.nave:link {
+    color: #F1E9DB;
+    text-decoration: none;
+}
+
+a.nave:visited {
+    color: #F1E9DB;
+}
+
+a.nave:hover {
+    color: #5DB7DE;
+}
+
+a.nave:active {
+    color: #5DB7DE;
+}
+
+/* Selector compuesto */
+nav a:link {
+    color: #F1E9DB;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #F1E9DB;
+}
+
+nav a:hover {
+    color: #5DB7DE;
+}
+
+nav a:active {
+    color: #5DB7DE;
+}
+
+
+/* Secciones */
+section {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Bienvenida */
+#bienvenida {
+    background-image: url('../img/bienvenida_sm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 750px;
+    margin: 32px auto;
+    padding: 165px 0;
+}
+
+#bienvenida h1 {
+    background-color: #07020dd3;
+    color: #F1E9DB;
+    padding: 16px 0;
+}
+
+/* Novedades */
+article {
+    margin: 35px auto;
+    width: 247px;
+}
+
+/* Links de novedades */
+article a:link {
+    text-decoration: none;
+    color: #07020D;
+    border: 3px solid #5DB7DE;
+    border-radius: 16px; /* Agrega las esquinas redondeadas */
+    display: block;  /* Hace que el link sea un elemento de bloque */
+    padding: 12px 0;
+}
+
+article a:visited {
+    color: #07020D;
+    border: 3px solid #5DB7DE;
+}
+
+article a:hover {
+    border: 3px solid #07020D;
+    background-color: #5DB7DE;
+}
+
+article a:active {
+    border: 3
+    px solid #07020D;
+    background-color: #5DB7DE;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+
+    margin: 4px 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 8px 0;
+}
+
+/* Pié de Página */
+footer {
+    background-color: #716A5C;
+    color: #F1E9DB;
+    font-weight: 600;
+    text-align: center;
+
+    padding: 55px 0;
+}
+
+/* Link pié de página */
+footer a:link {
+    text-decoration: none;
+    color: #181714;
+}
+
+footer a:visited {
+    color: #181714;
+}
+
+footer a:hover {
+    color: #f5c67b;
+}
+
+footer a:active {
+    color: #f5c67b;
+}
